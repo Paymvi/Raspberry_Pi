@@ -29,7 +29,7 @@ sda      931.5G
 
 your SSD **doesn’t have a partition table yet**. In other words, it’s “raw” and needs to be **formatted and partitioned** before the Pi can use it.
 
-### Tnstall a partitional tool
+### Install a partitional tool
 ```
 sudo apt update
 sudo apt install gparted -y
@@ -37,7 +37,7 @@ sudo apt install gparted -y
 - GParted gives you a **graphical interface** if you’re on the Pi desktop.
 - You can also use fdisk in the terminal.
 
-2. Create a parititon table
+### Create a partition table
 **Using GParted (easy, GUI way):**
 - Open GParted `(Menu → Accessories → GParted)`
 - Select your SSD (`/dev/sda`)
