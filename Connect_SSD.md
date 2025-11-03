@@ -15,8 +15,9 @@ lsblk
 sudo mkdir /mnt/ssd
 ```
 2. Mount the SSD
+```
 sudo mount /dev/sda1 /mnt/ssd
-
+```
 
 Chances are ^^ that will not work. This is because in your tree you only have `sda` on there you don't have `sda1`
 
