@@ -3,7 +3,9 @@
 
 ### Connect Hardware
 
-To setup the rasberry pi, you need to make sure these are connected:
+![pi hardware](./img/pi-setup-1.jpg)
+
+To setup the raspberry pi, you need to make sure these are connected:
 - The power cable (USB-C)
 - The monitor (Mini HDMI)
 - The mouse & keyboard (USB)
