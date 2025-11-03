@@ -3,8 +3,7 @@
 
 ### Connect Hardware
 
-<!-- ![pi hardware](./img/pi-setup-1.jpg) -->
-<img src="./img/pi-setup-1.png" alt="pi hardware" width="200"/>
+<img src="./img/pi-setup-1.png" alt="pi hardware" width="300"/>
 
 To setup the raspberry pi, you need to make sure these are connected:
 - The power cable (USB-C)
@@ -18,7 +17,7 @@ I also used a USB hub to connect my old USB plugs to the pi (keyboard and mouse)
 
 ### Setup settings
 
-<img src="./img/pi-setup-2.jpg" alt="pi screen" width="200"/>
+<img src="./img/pi-setup-2.jpg" alt="pi screen" width="300"/>
 
 It will ask you to:
 - Set country, timezone etc. 
@@ -31,6 +30,6 @@ After setting those up, it will ask you to choose whether you want to upgrade to
 
 After you choose your settings... you have not finished setting up your raspberry pi!
 
-<img src="./img/pi-setup-3.jpg" alt="pi desktop" width="200"/>
+<img src="./img/pi-setup-3.jpg" alt="pi desktop" width="300"/>
 
 It now looks like a linux desktop computer.
