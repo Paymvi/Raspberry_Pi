@@ -3,7 +3,7 @@
 
 ### Connect Hardware
 
-<img src="./img/pi-setup-2.jpg" alt="pi screen" width="400"/>
+<img src="./img/pi-setup-1.jpg" alt="pi screen" width="400"/>
 
 To setup the raspberry pi, you need to make sure these are connected:
 - The power cable (USB-C)
