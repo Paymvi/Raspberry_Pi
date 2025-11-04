@@ -78,3 +78,52 @@ hostname -I
 ```
 http://<<Your_ip>>/nextcloud
 ```
+
+<img src="./img/pi-nextcloud-1.jpg" alt="nextcloud opening screen" width="800"/>
+
+
+**9. Make a database in the terminal.**
+
+Don't be fooled by the GUI. When you do a **manual install zia the web GUI**, the installer does **not create the database itself.**.
+- It only **connects to an existing databse** and creates the necessary tables inside it.
+- That's why you need to create the databse first, along with a **database user** and password
+
+(Basically the GUI installer only creates tables inside ht databse, not the database itself)
+
+**Login into MySQL/MariaDB**
+```
+sudo sql
+```
+- This logs you in as the root databse user
+- You should see a prompt like: MariaDB [(none)]
+```
+CREATE DATABASE your_database_name;
+```
+(Use lowercase and don't use spaces or special characters)
+
+Then pick a username and password
+```
+CREATE DATABASE 'your_username'@'localhost' INDENTIFIED BY 'your_password';
+```
+
+Give the user permissions on the database
+```
+GRANT ALL PRIVILEGES ON your_database_name.* TO 'your_username'@'localhost';
+FLUSH PRIVILEGES;
+```
+- `your_database_name.*` gives permission on all tables in the databse
+- `FLUSH PRIVILEGES` applies the changes immediately
+
+***Test the connection***
+```
+EXIT;
+```
+
+**10. Input the information into the screen**
+<img src="./img/pi-nextcloud-2.jpg" alt="nextcloud opening screen" width="800"/>
+
+
+... Now it should look like this:
+<img src="./img/pi-nextcloud-3.jpg" alt="nextcloud opening screen" width="800"/>
+
+Now just check off how many apps you wnat to install and now you are all set!!!
