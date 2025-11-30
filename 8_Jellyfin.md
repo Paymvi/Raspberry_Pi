@@ -130,6 +130,18 @@ Highly recommended.
 <br>
 <img src="./img/pi-jellyfin-3.jpg" alt="pi screen" width="400"/>  
 
+So you log in to prove you are who you are.  
+Then you can connect your other devices.  
+
+What is going on here?
+You created a **private, encrypted network** that ONLY your devices can join.
+This is called a **Tailnet**.  
+It is like your own secret wifi. Your raspberry pi is now part of that private network.
+
+
+
+
+
 ## Part ? - Enable Hardware Acceleration (Pi 5 = fast)
 This helps the videos run smoother
 1. Install VAAPI Drivers

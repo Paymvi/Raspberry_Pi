@@ -36,7 +36,7 @@ xfce4-panel -r 2>/dev/null
 
 Make it executable
 ```
-chmod +x ~/YOUR-PATH-HERE/ToogleDark.sh
+chmod +x ~/YOUR-PATH-HERE/ToggleDark.sh
 ```
 
 ## Make the Icon for your desktop
@@ -56,7 +56,7 @@ Type=Application
 Categories=Utility;
 ```
 
-Use `whoami` if you don't knwo what your username is.  
+Use `whoami` if you don't know what your username is.  
 Also, I recommend using favicon to find a good icon iamge for your shortcut.
 
 
