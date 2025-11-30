@@ -38,3 +38,16 @@ or
 
 Right-click → Copy  
 Right-click → Paste
+
+
+
+### cool linux commands
+
+1. Find out what is taking up all your space lol  
+It is like `df` and `du` but better
+```
+ncdu
+```
+
+2. `duf` shwos you drive usage but better (than `df`)
+(
